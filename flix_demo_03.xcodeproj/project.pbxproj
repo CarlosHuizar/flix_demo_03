@@ -17,6 +17,7 @@
 		98218F93202276F500D65B17 /* flix_demo_03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98218F92202276F500D65B17 /* flix_demo_03UITests.swift */; };
 		98218FA120227E5700D65B17 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98218FA020227E5700D65B17 /* NowPlayingViewController.swift */; };
 		98C20C7D2025C766003FEEC8 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C20C7C2025C766003FEEC8 /* MovieCell.swift */; };
+		98C20C8420291FA3003FEEC8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C20C8320291FA3003FEEC8 /* DetailViewController.swift */; };
 		EA7148938B7B4E92948420BE /* Pods_flix_demo_03.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA9136DD94BDDBD94097E5C /* Pods_flix_demo_03.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		98218F94202276F500D65B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98218FA020227E5700D65B17 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		98C20C7C2025C766003FEEC8 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		98C20C8320291FA3003FEEC8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A51F967AE6E3F8612D932B37 /* Pods-flix_demo_03Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix_demo_03Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-flix_demo_03Tests/Pods-flix_demo_03Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C558FA518197409130E214A5 /* Pods-flix_demo_03.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix_demo_03.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flix_demo_03/Pods-flix_demo_03.debug.xcconfig"; sourceTree = "<group>"; };
 		CCA9136DD94BDDBD94097E5C /* Pods_flix_demo_03.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flix_demo_03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,13 +141,13 @@
 		98218F71202276F400D65B17 /* flix_demo_03 */ = {
 			isa = PBXGroup;
 			children = (
-				98218FA020227E5700D65B17 /* NowPlayingViewController.swift */,
+				98C20C7F20291432003FEEC8 /* Views */,
+				98C20C7E20291409003FEEC8 /* ViewControllers */,
 				98218F72202276F400D65B17 /* AppDelegate.swift */,
 				98218F76202276F500D65B17 /* Main.storyboard */,
 				98218F79202276F500D65B17 /* Assets.xcassets */,
 				98218F7B202276F500D65B17 /* LaunchScreen.storyboard */,
 				98218F7E202276F500D65B17 /* Info.plist */,
-				98C20C7C2025C766003FEEC8 /* MovieCell.swift */,
 			);
 			path = flix_demo_03;
 			sourceTree = "<group>";
@@ -166,6 +168,23 @@
 				98218F94202276F500D65B17 /* Info.plist */,
 			);
 			path = flix_demo_03UITests;
+			sourceTree = "<group>";
+		};
+		98C20C7E20291409003FEEC8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				98218FA020227E5700D65B17 /* NowPlayingViewController.swift */,
+				98C20C8320291FA3003FEEC8 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		98C20C7F20291432003FEEC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98C20C7C2025C766003FEEC8 /* MovieCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,6 +485,7 @@
 				98218FA120227E5700D65B17 /* NowPlayingViewController.swift in Sources */,
 				98218F73202276F400D65B17 /* AppDelegate.swift in Sources */,
 				98C20C7D2025C766003FEEC8 /* MovieCell.swift in Sources */,
+				98C20C8420291FA3003FEEC8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
